@@ -102,3 +102,4 @@ _A list with some Git commands_
 | `git submodule init` | Init submodules configuration file |
 | `git submodule update` | Fetch all submodules project data |
 | `git clone --recurse-submodules [REPO]` | Clones The project with submodules |
+| `git submodule update --init --recursive` | update and init |
