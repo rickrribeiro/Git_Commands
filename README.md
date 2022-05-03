@@ -98,7 +98,7 @@ _A list with some Git commands_
 
 | Command | Description |
 | ------- | ----------- |
-| `git submodule add [NAME]` | Add a submodule |
+| `git submodule add [NAME] path` | Add a submodule |
 | `git submodule init` | Init submodules configuration file |
 | `git submodule update` | Fetch all submodules project data |
 | `git clone --recurse-submodules [REPO]` | Clones The project with submodules |

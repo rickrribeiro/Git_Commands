@@ -1,0 +1,3 @@
+[submodule ".submodules/rickrribeiro"]
+	path = .submodules/rickrribeiro
+	url = https://github.com/rickrribeiro/rickrribeiro
