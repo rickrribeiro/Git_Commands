@@ -102,4 +102,5 @@ _A list with some Git commands and example configs_
 | `git submodule init` | Init submodules configuration file |
 | `git submodule update` | Fetch all submodules project data |
 | `git clone --recurse-submodules [REPO]` | Clones The project with submodules |
+| `git submodule update --init --recursive` | update and init |
 --- to add a submodule as a package, add to package.json "pakage-name": "file:.submodules/pakage-name",
