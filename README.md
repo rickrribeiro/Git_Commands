@@ -2,7 +2,7 @@ Git Commands
 ============
 ___
 
-_A list with some Git commands_
+_A list with some Git commands and example configs_
 
 --
 
@@ -102,3 +102,4 @@ _A list with some Git commands_
 | `git submodule init` | Init submodules configuration file |
 | `git submodule update` | Fetch all submodules project data |
 | `git clone --recurse-submodules [REPO]` | Clones The project with submodules |
+--- to add a submodule as a package, add to package.json "pakage-name": "file:.submodules/pakage-name",
