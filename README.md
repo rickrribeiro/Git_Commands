@@ -76,8 +76,8 @@ _A list with some Git commands and example configs_
 | `git config` | Change or view git configs |
 | `git config --global user.name [NAME]` | Configure git username |
 | `git config --global user.email [EMAIL]` | Configure git email |
-| `git-update-index ` | Register file contents in the working tree to the index |
-| `git-update-index --chmod (+|-)x [FILENAME]` | Add or remove permission to execute file ex: permission error on travis |
+| `git update-index ` | Register file contents in the working tree to the index |
+| `git update-index --chmod (+|-)x [FILENAME]` | Add or remove permission to execute file ex: permission error on travis |
 
 ### Git Flow Feature
 
