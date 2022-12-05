@@ -47,6 +47,7 @@ _A list with some Git commands and example configs_
 | `git stash clear` | Remove all stashed entries |
 | `git revert [commit hash]` | Revert the commit |
 | `git revert -n [branch]~[x]..[branch]~[y]` | Revert the changes done by commits from the [x] last commit in master (included) to the [y] last commit in master (included) |
+
 ### Sharing & Updating Projects
 
 | Command | Description |
@@ -80,6 +81,7 @@ _A list with some Git commands and example configs_
 | `git config --global user.name [NAME]` | Configure git username |
 | `git config --global user.email [EMAIL]` | Configure git email |
 | `git config pull.rebase (false | true)` | Configure if git pull do rebase or merge|
+| `git rm -r --cached .` | Clean file cache (fix gitignore, but be careful with file permissions) |
 
 ### Git Flow Feature
 
