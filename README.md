@@ -23,7 +23,8 @@ _A list with some Git commands and example configs_
 | `git add .` | Add current folder to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
-| `git restore --staged *` | Remove added files from staging area |
+| `git restore --staged *` | Remove added files from staging area and undo changes|
+| `git reset [filename]` | Remove added files from staging area |
 
 ### Branching & Merging
 
