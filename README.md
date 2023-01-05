@@ -47,6 +47,9 @@ _A list with some Git commands and example configs_
 | `git stash clear` | Remove all stashed entries |
 | `git revert [commit hash]` | Revert the commit |
 | `git revert -n [branch]~[x]..[branch]~[y]` | Revert the changes done by commits from the [x] last commit in master (included) to the [y] last commit in master (included) |
+| `git cherry-pick {commit}` | Get specific commit from a branch and moves to another |
+| `git cherry-pick {commit}^..{commit}` | Get range of commits from a branch and moves to another |
+
 ### Sharing & Updating Projects
 
 | Command | Description |
