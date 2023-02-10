@@ -56,6 +56,7 @@ _A list with some Git commands and example configs_
 | Command | Description |
 | ------- | ----------- |
 | `git push origin [branch name]` | Push a branch to your remote repository |
+| `git push --force origin [branch name]` | !!!WARN!!! Force to push a branch to your remote repository and REMOVE differences in the remote branch|
 | `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
 | `git push` | Push changes to remote repository (remembered branch) |
 | `git push origin --delete [branch name]` | Delete a remote branch |
