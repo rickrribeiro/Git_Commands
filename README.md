@@ -14,6 +14,7 @@ _A list with some Git commands and example configs_
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 | `git clean -d -x -f` | Cleans the working tree removing files that are not under version control |
 
+
 ### Basic Snapshotting
 
 | Command | Description |
@@ -89,6 +90,7 @@ _A list with some Git commands and example configs_
 | `git config --global user.email [EMAIL]` | Configure git email |
 | `git config pull.rebase (false | true)` | Configure if git pull do rebase or merge|
 | `git rm -r --cached .` | Clean file cache (fix gitignore, but be careful with file permissions) |
+| `git remote set-url origin [URL]` | Update the project origin url |
 
 ### Git Flow Feature
 
